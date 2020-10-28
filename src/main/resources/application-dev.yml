@@ -1,0 +1,19 @@
+#配置数据库
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.98.240.222:3306/project200907?serverTimezone=GMT%2B8
+    username: root
+    password: hdl2070330
+  servlet:
+    multipart:
+      max-file-size: 5MB
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.molin.project200907.pojo
+
+
+
